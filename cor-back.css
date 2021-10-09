@@ -20,6 +20,45 @@
         }
 
         .posicao-especifica{
-            background-position: bottom right;
+            background-position: center;
+        }
+        .box{
+            border: 1px solid black;
+            border-radius: 8px;
+            padding: 8px;
+            width: 50%;
+            height: 50%;
+            min-height: 150px;
+            max-width: 150px;
+        }
+        #back-imagens-multiplas{
+            background-image: url(imagens/driver.png);
+            background-repeat: no-repeat, no-repeat;
+            background-position: top left, bottom right;
+            
+            
+        }
+        .imagens-canto-hp-p-f{
+            background-image: url(imagens/customer-support.png),
+            url(imagens/loud.png) ,
+            url(imagens/loupe.png) ,
+            url(imagens/settings.png) ;
+
+            background-repeat: no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat;
+
+            background-position: top left,
+             top right ,
+             bottom left ,
+             bottom right ;
+            background-size: 64px,
+            64px,
+            64px,
+            64px;
+
+            
+            
         }
     
